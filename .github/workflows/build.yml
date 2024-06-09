@@ -1,35 +1,56 @@
-name: Build Marble
+name: Build Marble Project
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: windows-latest
 
     steps:
-    - name: Checkout code
+    - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Set up MinGW
-      uses: egor-tensin/setup-mingw@v1
-      with:
-        version: '8.1.0'
+    - name: Set up Chocolatey
+      uses: actions/checkout@v2
+
+    - name: Install Chocolatey
+      run: |
+        Set-ExecutionPolicy Bypass -Scope Process -Force; `
+        [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; `
+        iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+    - name: Install MinGW
+      run: |
+        choco install mingw -y
+
+    - name: Remove libpthread.dll.a if it exists
+      run: |
+        $mingw_lib = "C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\x86_64-w64-mingw32\lib"
+        $libpthreadPath = Join-Path $mingw_lib 'libpthread.dll.a'
+        if (Test-Path $libpthreadPath) {
+          Remove-Item $libpthreadPath
+          Write-Host "File libpthread.dll.a found and removed."
+        } else {
+          Write-Host "File libpthread.dll.a not found, skipping removal."
 
     - name: Set up Qt
-      uses: jurplel/install-qt-action@v2
+      run: |
+        choco install qt5-default -y
+        echo "C:\Qt\5.15.2\mingw81_64\bin" >> $env:GITHUB_PATH
+
+    - name: Set up CMake
+      uses: lukka/get-cmake@v2
       with:
-        version: '5.14.0'
-        host: 'windows'
-        arch: 'win64'
+        cmakeVersion: '3.21.1'
 
-    - name: Install dependencies
-      run: |
-        sudo apt-get install zlib1g-dev
+    - name: Configure project
+      run: cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="C:/Qt/5.15.2/mingw81_64" -DZLIB_INCLUDE_DIR="C:/protobuf/zlib-1.3.1" -DZLIB_LIBRARY="C:/protobuf/zlib-1.3.1/libz.a" -DProtobuf_INCLUDE_DIR="C:/protobuf/protobuf-3.14.0/include" -DProtobuf_LIBRARIES="C:/protobuf/protobuf-3.14.0/lib/libprotobuf.a" -Dprotobuf_BUILD_TESTS=OFF ..
 
-    - name: Configure with CMake
-      run: |
-        cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="C:/Qt/5.14.0/msvc2017_64" .
-
-    - name: Build with CMake
-      run: |
-        mingw32-make
+    - name: Build project
+      run: cmake --build . --config Release
