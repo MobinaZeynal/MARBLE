@@ -42,7 +42,7 @@ jobs:
     - name: Set up Qt
       run: |
         choco install qt5-default -y
-        echo "C:\Qt\5.15.2\mingw81_64\bin" >> $env:GITHUB_PATH
+        echo "C:\Qt\5.12.11\mingw81_64\bin" >> $env:GITHUB_PATH
 
     - name: Set up CMake
       uses: lukka/get-cmake@v2
@@ -50,7 +50,7 @@ jobs:
         cmakeVersion: '3.21.1'
 
     - name: Configure project
-      run: cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="C:/Qt/5.15.2/mingw81_64" -DZLIB_INCLUDE_DIR="C:/protobuf/zlib-1.3.1" -DZLIB_LIBRARY="C:/protobuf/zlib-1.3.1/libz.a" -DProtobuf_INCLUDE_DIR="C:/protobuf/protobuf-3.14.0/include" -DProtobuf_LIBRARIES="C:/protobuf/protobuf-3.14.0/lib/libprotobuf.a" -Dprotobuf_BUILD_TESTS=OFF ..
+      run: cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="C:/Qt/5.12.11/mingw81_64" -DZLIB_INCLUDE_DIR="C:/protobuf/zlib-1.3.1" -DZLIB_LIBRARY="C:/protobuf/zlib-1.3.1/libz.a" -DProtobuf_INCLUDE_DIR="C:/protobuf/protobuf-3.14.0/include" -DProtobuf_LIBRARIES="C:/protobuf/protobuf-3.14.0/lib/libprotobuf.a" -Dprotobuf_BUILD_TESTS=OFF ..
 
     - name: Build project
       run: cmake --build . --config Release
