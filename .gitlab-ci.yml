@@ -1,0 +1,67 @@
+# SPDX-FileCopyrightText: None
+# SPDX-License-Identifier: CC0-1.0
+
+include:
+  - project: sysadmin/ci-utilities
+    file:
+    - /gitlab-templates/linux.yml
+    - /gitlab-templates/freebsd.yml
+    - /gitlab-templates/windows.yml
+    - /gitlab-templates/flatpak.yml
+
+# Manual job for building of maps.kde.org binaries
+maps-kde-org-binaries:
+  stage: build
+  image: ubuntu:22.04
+  tags:
+    - Linux
+  when: manual
+  script:
+    - export DEBIAN_FRONTEND=noninteractive
+    - export DEBCONF_NONINTERACTIVE_SEEN=true
+    - apt-get update && apt-get -y install
+        cmake
+        g++
+        git
+        libboost-program-options-dev
+        libmapnik-dev
+        libprotobuf-dev
+        libshp-dev
+        protobuf-compiler
+        qtbase5-dev
+    - tools/vectorosm-tilecreator/setup/build/build-tilegenerator.sh
+  artifacts:
+    expire_in: 1 week
+    when: on_success
+    paths:
+     - build/tools/vectorosm-tilecreator/marble-vectorosm-tirex-backend
+     - build/tools/vectorosm-tilecreator/marble-vectorosm-process-land-polygons
+     - build/tools/vectorosm-tilecreator/marble-vectorosm-tilecreator
+
+# Manual job for building OSMX for maps.kde.org
+maps-kde-org-osmx:
+  stage: build
+  image: ubuntu:22.04
+  tags:
+    - Linux
+  when: manual
+  script:
+    - export DEBIAN_FRONTEND=noninteractive
+    - export DEBCONF_NONINTERACTIVE_SEEN=true
+    - apt-get update && apt-get -y install
+        git
+        cmake
+        clang
+        libbz2-dev
+        libz-dev
+        libexpat-dev
+        libssl-dev
+    - git clone --recursive https://github.com/protomaps/OSMExpress.git
+    - cd OSMExpress
+    - cmake -DCMAKE_BUILD_TYPE=Release .
+    - make
+  artifacts:
+    expire_in: 1 week
+    when: on_success
+    paths:
+     - OSMExpress/osmx

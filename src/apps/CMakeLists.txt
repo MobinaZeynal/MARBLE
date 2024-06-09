@@ -1,0 +1,13 @@
+option(BUILD_MARBLE_APPS "Build the main Marble applications" ON)
+if(BUILD_MARBLE_APPS)
+    if (NOT ANDROID)
+        add_subdirectory(marble-ui)
+        add_subdirectory(marble-qt)
+        add_subdirectory(marble-kde)
+    endif()
+
+    add_subdirectory(behaim)
+    if (NOT Qt5_VERSION VERSION_LESS 5.7.0)
+        add_subdirectory(marble-maps)
+    endif()
+endif()

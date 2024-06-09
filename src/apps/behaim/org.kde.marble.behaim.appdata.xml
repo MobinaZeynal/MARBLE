@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: none
+  SPDX-License-Identifier: CC0-1.0
+-->
+<component type="desktop">
+  <id>org.kde.marble.behaim.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LGPL-2.1-or-later</project_license>
+  <name>Behaim Globe</name>
+  <name xml:lang="bg">Глобус на Бехайм</name>
+  <name xml:lang="ca">Globus terraqüi de Behaim</name>
+  <name xml:lang="ca-valencia">Globus terraqüi de Behaim</name>
+  <name xml:lang="cs">Behaimův globus</name>
+  <name xml:lang="de">Behaim-Globus</name>
+  <name xml:lang="en-GB">Behaim Globe</name>
+  <name xml:lang="eo">Behaim-Globo</name>
+  <name xml:lang="es">Globo de Behaim</name>
+  <name xml:lang="eu">Behaim Globoa</name>
+  <name xml:lang="fi">Behaimin karttapallo</name>
+  <name xml:lang="fr">Behaim Globe</name>
+  <name xml:lang="gl">Globo terráqueo de Behaim</name>
+  <name xml:lang="id">Globe Behaim</name>
+  <name xml:lang="is">Behaim-hnöttur</name>
+  <name xml:lang="it">Globo di Behaim</name>
+  <name xml:lang="ka">Behaim -ის გლობუსი</name>
+  <name xml:lang="ko">Behaim 지구본</name>
+  <name xml:lang="nl">Globe van Behaim</name>
+  <name xml:lang="pl">Globus Behaim</name>
+  <name xml:lang="pt">Globo Behaim</name>
+  <name xml:lang="pt-BR">Globo de Behaim</name>
+  <name xml:lang="ru">Глобус Бехайма</name>
+  <name xml:lang="sk">Behaim Globe</name>
+  <name xml:lang="sl">Behaim Globe</name>
+  <name xml:lang="sv">Behaim Globe</name>
+  <name xml:lang="tr">Behaim Küresi</name>
+  <name xml:lang="uk">Глобус Бегайма</name>
+  <name xml:lang="x-test">xxBehaim Globexx</name>
+  <name xml:lang="zh-CN">贝海姆地球仪</name>
+  <name xml:lang="zh-TW">倍海姆地球儀</name>
+  <summary>Martin Behaim's Erdapfel</summary>
+  <summary xml:lang="bg">Земната ябълка на Мартин Бехайм</summary>
+  <summary xml:lang="ca">Erdapfel de Martin Behaim</summary>
+  <summary xml:lang="ca-valencia">Erdapfel de Martin Behaim</summary>
+  <summary xml:lang="de">Martin Behaim's Erdapfel</summary>
+  <summary xml:lang="en-GB">Martin Behaim's Erdapfel</summary>
+  <summary xml:lang="eo">Terpomo de Martin Behaim</summary>
+  <summary xml:lang="es">El Erdapfel de Martin Behaim</summary>
+  <summary xml:lang="eu">Martin Behaim-en «Erdapfel» (patata)</summary>
+  <summary xml:lang="fi">Martin Behaimin Erdapfel</summary>
+  <summary xml:lang="fr">Martin Behaim Erdapfel</summary>
+  <summary xml:lang="gl">Erdapfel de Martin Behaim.</summary>
+  <summary xml:lang="id">Erdapfel Martin Behaim</summary>
+  <summary xml:lang="is">Erdapfel frá Martin Behaim</summary>
+  <summary xml:lang="it">Erdapfel di Martin Behaim</summary>
+  <summary xml:lang="ka">Martin Behaim-ის ერდაპფელი</summary>
+  <summary xml:lang="ko">마르틴 베하임의 Erdapfel</summary>
+  <summary xml:lang="nl">De "Erdapfel" van Martin Behaim</summary>
+  <summary xml:lang="pl">Ziemniak Martina Behaima</summary>
+  <summary xml:lang="pt">Erdapfel de Martin Behaim</summary>
+  <summary xml:lang="pt-BR">Erdapfel de Martin Behaim</summary>
+  <summary xml:lang="ru">«Земное яблоко» Мартина Бехайма</summary>
+  <summary xml:lang="sk">Martin Behaim Erdapfel</summary>
+  <summary xml:lang="sl">Martin Behaim's Erdapfel</summary>
+  <summary xml:lang="sv">Martin Behaim's Erdapfel</summary>
+  <summary xml:lang="tr">Martin Behaim'in Erdapfel'i</summary>
+  <summary xml:lang="uk">Ердапфель Мартіна Бегайма</summary>
+  <summary xml:lang="x-test">xxMartin Behaim's Erdapfelxx</summary>
+  <summary xml:lang="zh-CN">马丁·贝海姆地球仪</summary>
+  <summary xml:lang="zh-TW">馬丁·倍海姆的倍海姆地球儀 (Erdapfel)</summary>
+  <description>
+    <p>The oldest existent globe of the Earth. Martin Behaim and collaborators created the globe around 1492 at the time of Columbus' first sea travel to the west.</p>
+    <p xml:lang="bg">Най-старият съществуващ глобус на Земята. Мартин Бехайм и сътрудници създават глобуса около 1492 г. по време на първото пътуване на Колумб по море на запад.</p>
+    <p xml:lang="ca">El globus més antic existent de la Terra. Martin Behaim i els col·laboradors van crear el globus al voltant de 1492 en el moment del primer viatge marítim de Colom a l'oest.</p>
+    <p xml:lang="ca-valencia">El globus més antic existent de la Terra. Martin Behaim i els col·laboradors van crear el globus al voltant de 1492 en el moment del primer viatge marítim de Colom a l'oest.</p>
+    <p xml:lang="de">Der älteste existierende Globus der Erde. Der Globus wurde von Martin Behaim und anderen etwa 1492 erstellt, zu dieser Zeit begann Columbus seine erste Reise nach Westen.</p>
+    <p xml:lang="en-GB">The oldest existent globe of the Earth. Martin Behaim and collaborators created the globe around 1492 at the time of Columbus' first sea travel to the west.</p>
+    <p xml:lang="eo">La plej antikva ekzistanta globo de la Tero. Martin Behaim kaj kunlaborantoj kreis la globon ĉirkaŭ 1492 je la tempo de la unua marvojaĝo okcidenten de Kolumbo.</p>
+    <p xml:lang="es">El globo terráqueo más antiguo que se conserva. Martin Behaim y sus colaboradores crearon el globo hacia 1492, en los tiempos del primer viaje por mar de Colón hacia el oeste.</p>
+    <p xml:lang="eu">Existitzen den lurraren globo zaharrena. Martin Behaim eta kolaboratzaileek 1492 inguruan sortu zuten, Colon-en mendebalderako lehenengo bidaiaren garaian.</p>
+    <p xml:lang="fi">Vanhin tunnettu karttapallo. Martin Behaim yhteistyökumppaneineen loi sen noin vuonna 1492 samoihin aikoihin Kolumbuksen ensimmäisen länteen suuntautuneen merimatkan kanssa.</p>
+    <p xml:lang="fr">Le plus ancien globe existant de la Terre. Martin Behaim et ses collaborateurs ont créé ce globe aux environs de 1492, au moment de la première traversée de Christophe Colomb vers l'Ouest.</p>
+    <p xml:lang="gl">O globo terráqueo máis antigo. Martin Behaim e o seu equipo creárono en 1492, no ano da primeira viaxe de Colón por mar ao oeste.</p>
+    <p xml:lang="id">Bola dunia tertua yang ada di Bumi. Martin Behaim dan kolaboratornya menciptakan dunia sekitar 1492 pada saat perjalanan laut pertama Columbus ke barat.</p>
+    <p xml:lang="is">Elsta hnattlíkanið af Jörðinni sem til er. Martin Behaim og samstarfsmenn hans útbjuggu þetta hnattlíkan árið 1492 á svipuðum tíma og Kólumbus fór fyrst vestur yfir úthafið.</p>
+    <p xml:lang="it">Il più antico globo esistente della Terra. Martin Behaim e i suoi collaboratori crearono il globo intorno al 1492 all'epoca del primo viaggio per mare di Colombo verso ovest.</p>
+    <p xml:lang="ko">세계에서 가장 오래된 지구본입니다. 마르틴 베하임(Martin Behaim)과 협력자들은 1492년 콜럼버스의 대서양 탐험 시기에 지구본을 만들었습니다.</p>
+    <p xml:lang="nl">De oudst bestaande globe van de aarde. Deze werd in 1492 vervaardigd door Martin Behaim en zijn medewerkers, ten tijde van de eerste reis van Columbus naar het westen.</p>
+    <p xml:lang="pl">Najstarszy istniejący globus na Ziemi. Martin Behaim i jego współpracownicy stworzyli glob około 1492 w czasie pierwszych podróży morskich Kolumba na zachód.</p>
+    <p xml:lang="pt">O globo Terrestre mais antigo existente. O Martin Behaim e os seus colaboradores criaram o globo por volta de 1492, na altura da primeira travessia marítima para Oeste por Colombo.</p>
+    <p xml:lang="pt-BR">O globo mais antigo existente na Terra. Martin Behaim e colaboradores criaram o globo por volta de 1492 na época da primeira viagem marítima de Colombo para o oeste.</p>
+    <p xml:lang="ru">Самый старый существующий глобус Земли, был создан под руководством Мартина Бехайма примерно в 1492 году во время первого морского путешествия Колумба на запад.</p>
+    <p xml:lang="sk">Najstarší existujúci glóbus Zeme. Martin Behaim a spolupracovníci vytvorili glóbus okolo roku 1492 v čase Kolumbovej plavby na západ.</p>
+    <p xml:lang="sl">Najstarejši obstoječi globus sveta. Martin Behaim in sodelavci so ustvarili globus okoli leta 1492 ob času Kolumbovega prvega potovanja na zahod.</p>
+    <p xml:lang="sv">Den äldsta kända jordgloben. Martin Behaim och hans medarbetare skapade globen omkring 1492 vid tiden för Columbus första sjöresa västerut.</p>
+    <p xml:lang="tr">Dünya'nın bilinen en eski küresi. Martin Behaim ve arkadaşları 1492 yılında, Kolomb'un batıya olan ilk deniz yolculuğu ile aynı zamanda bu ilk küreyi oluşturdular.</p>
+    <p xml:lang="uk">Найдавніший глобус Землі, який зберігся до наших часів. Мартін Бегайм та його помічники створили глобус близько 1492 року, у часи першої подорожі Колумба на захід.</p>
+    <p xml:lang="x-test">xxThe oldest existent globe of the Earth. Martin Behaim and collaborators created the globe around 1492 at the time of Columbus' first sea travel to the west.xx</p>
+    <p xml:lang="zh-CN">已知最早的地球仪，由马丁·贝海姆以及他的同事制作，时间为 1492 年前后——这是哥伦布首次西向航海的时代。</p>
+    <p xml:lang="zh-TW">現存最古老的地球儀。馬丁·倍海姆與合作者在 1492 年哥倫布首次往西出海的時候左右做出了這個地球儀。</p>
+  </description>
+  <url type="homepage">https://marble.kde.org/</url>
+  <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?format=guided&amp;product=marble</url>
+  <url type="faq">https://techbase.kde.org/Projects/Marble/FAQ</url>
+  <url type="help">https://marble.kde.org/support.php</url>
+  <url type="donation">https://www.kde.org/community/donations/?app=marble&amp;source=appdata</url>
+  <project_group>KDE</project_group>
+  <provides>
+    <binary>MarbleBehaim</binary>
+  </provides>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="24.05.0" date="2024-05-23"/>
+    <release version="24.02.2" date="2024-04-11"/>
+    <release version="24.02.1" date="2024-03-21"/>
+    <release version="24.02.0" date="2024-02-28"/>
+    <release version="23.08.5" date="2024-02-15"/>
+  </releases>
+</component>

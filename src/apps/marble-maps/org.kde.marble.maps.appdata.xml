@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: none
+  SPDX-License-Identifier: CC0-1.0
+-->
+<component type="desktop">
+  <id>org.kde.marble.maps.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LGPL-2.1-or-later</project_license>
+  <name>Marble Maps</name>
+  <name xml:lang="ar">خرائط ماربل</name>
+  <name xml:lang="bg">Карти Marble</name>
+  <name xml:lang="ca">Mapes del Marble</name>
+  <name xml:lang="ca-valencia">Mapes de Marble</name>
+  <name xml:lang="cs">Mapy Marble</name>
+  <name xml:lang="de">Marble-Karten</name>
+  <name xml:lang="en-GB">Marble Maps</name>
+  <name xml:lang="eo">Marble Mapoj</name>
+  <name xml:lang="es">Mapas de Marble</name>
+  <name xml:lang="eu">Marble Mapak</name>
+  <name xml:lang="fi">Marble-kartat</name>
+  <name xml:lang="fr">Cartes de Marble</name>
+  <name xml:lang="gl">Mapas de Marble</name>
+  <name xml:lang="id">Marble Maps</name>
+  <name xml:lang="is">Marble-landakort</name>
+  <name xml:lang="it">Marble Maps</name>
+  <name xml:lang="ka">Marble რუკები</name>
+  <name xml:lang="ko">Marble 지도</name>
+  <name xml:lang="nl">Kaarten van Marble</name>
+  <name xml:lang="pl">Mapy Marble</name>
+  <name xml:lang="pt">Mapas do Marble</name>
+  <name xml:lang="pt-BR">Marble Maps</name>
+  <name xml:lang="ru">Карты Marble</name>
+  <name xml:lang="sk">Marble mapy</name>
+  <name xml:lang="sl">Marble Maps</name>
+  <name xml:lang="sv">Marble-kartor</name>
+  <name xml:lang="tr">Bilye Haritalar</name>
+  <name xml:lang="uk">Карти Marble</name>
+  <name xml:lang="x-test">xxMarble Mapsxx</name>
+  <name xml:lang="zh-CN">Marble 地图</name>
+  <name xml:lang="zh-TW">Marble 地圖</name>
+  <summary>Find your way</summary>
+  <summary xml:lang="ar">اعثر على طريقك</summary>
+  <summary xml:lang="bg">Намерете вашия път</summary>
+  <summary xml:lang="ca">Trobeu el camí</summary>
+  <summary xml:lang="ca-valencia">Trobeu el camí</summary>
+  <summary xml:lang="cs">Najděte si cestu</summary>
+  <summary xml:lang="de">Routenplanung</summary>
+  <summary xml:lang="en-GB">Find your way</summary>
+  <summary xml:lang="eo">Trovu vian vojon</summary>
+  <summary xml:lang="es">Encuentre la ruta</summary>
+  <summary xml:lang="eu">Aurkitu zure bidea</summary>
+  <summary xml:lang="fi">Löydä reittisi</summary>
+  <summary xml:lang="fr">Trouver votre route</summary>
+  <summary xml:lang="gl">Atopa o teu camiño.</summary>
+  <summary xml:lang="id">Temukan jalan Anda</summary>
+  <summary xml:lang="is">Rataðu leiðina þína</summary>
+  <summary xml:lang="it">Trova la via</summary>
+  <summary xml:lang="ka">იპოვეთ თქვენი გზა</summary>
+  <summary xml:lang="ko">길 찾기</summary>
+  <summary xml:lang="nl">Uw weg vinden</summary>
+  <summary xml:lang="pl">Znajdź swoją drogę</summary>
+  <summary xml:lang="pt">Descubra o seu caminho</summary>
+  <summary xml:lang="pt-BR">Descubra o seu caminho</summary>
+  <summary xml:lang="ru">Планирование маршрута</summary>
+  <summary xml:lang="sk">Nájdite svoju cestu</summary>
+  <summary xml:lang="sl">Poišči svojo pot</summary>
+  <summary xml:lang="sv">Hitta rätt</summary>
+  <summary xml:lang="tr">Yolunuzu bulun</summary>
+  <summary xml:lang="uk">Знайдіть ваш шлях</summary>
+  <summary xml:lang="x-test">xxFind your wayxx</summary>
+  <summary xml:lang="zh-CN">查找路线</summary>
+  <summary xml:lang="zh-TW">找尋您的方向</summary>
+  <description>
+    <p>OpenStreetMap Navigation.</p>
+    <p xml:lang="ar">تنقل خريطة الشّوارع المفتوحة.</p>
+    <p xml:lang="bg">Навигация с OpenStreetMap.</p>
+    <p xml:lang="ca">Navegació de l'OpenStreetMap.</p>
+    <p xml:lang="ca-valencia">Navegueu OpenStreetMap.</p>
+    <p xml:lang="cs">Navigace OpenStreetMap.</p>
+    <p xml:lang="de">OpenStreetMap-Navigation.</p>
+    <p xml:lang="en-GB">OpenStreetMap Navigation.</p>
+    <p xml:lang="eo">OpenStreetMap-Navigado.</p>
+    <p xml:lang="es">Navegación de OpenStreetMap.</p>
+    <p xml:lang="eu">OpenStreetMap Nabigazioa.</p>
+    <p xml:lang="fi">OpenStreetMap-navigointi.</p>
+    <p xml:lang="fr">Navigation avec OpenStreetMap.</p>
+    <p xml:lang="gl">Navegación con OpenStreetMap.</p>
+    <p xml:lang="id">Navigasi OpenStreetMap.</p>
+    <p xml:lang="is">OpenStreetMap leiðsögn.</p>
+    <p xml:lang="it">Navigazione con OpenStreetMap.</p>
+    <p xml:lang="ka">OpenStreetMap ნავიგაცია.</p>
+    <p xml:lang="ko">OpenStreetMap 내비게이션입니다.</p>
+    <p xml:lang="nl">Navigeren met OpenStreetMap.</p>
+    <p xml:lang="pl">Nawigacja OpenStreetMap.</p>
+    <p xml:lang="pt">Navegação com o OpenStreetMap.</p>
+    <p xml:lang="pt-BR">Navegação com o OpenStreetMap.</p>
+    <p xml:lang="ru">Навигация с OpenStreetMap.</p>
+    <p xml:lang="sk">Navigácia OpenStreetMap</p>
+    <p xml:lang="sl">OpenStreetMap Navigation.</p>
+    <p xml:lang="sv">Navigering med OpenStreetMap.</p>
+    <p xml:lang="tr">OpenStreetMap Dolaşımı.</p>
+    <p xml:lang="uk">Навігація OpenStreetMap.</p>
+    <p xml:lang="x-test">xxOpenStreetMap Navigation.xx</p>
+    <p xml:lang="zh-CN">OpenStreetMap 导航。</p>
+    <p xml:lang="zh-TW">OpenStreetMap 開放街圖瀏覽。</p>
+  </description>
+  <url type="homepage">https://marble.kde.org/</url>
+  <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?format=guided&amp;product=marble</url>
+  <url type="faq">https://techbase.kde.org/Projects/Marble/FAQ</url>
+  <url type="help">https://marble.kde.org/support.php</url>
+  <url type="donation">https://www.kde.org/community/donations/?app=marble&amp;source=appdata</url>
+  <project_group>KDE</project_group>
+  <provides>
+    <binary>marble-maps</binary>
+  </provides>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="24.05.0" date="2024-05-23"/>
+    <release version="24.02.2" date="2024-04-11"/>
+    <release version="24.02.1" date="2024-03-21"/>
+    <release version="24.02.0" date="2024-02-28"/>
+    <release version="23.08.5" date="2024-02-15"/>
+  </releases>
+</component>

@@ -1,0 +1,11 @@
+.directory
+CMakeLists.txt.user
+src/apps/marble_maps/Marble.keystore
+enpo
+.cmake/
+/.clang-format
+/compile_commands.json
+.clangd
+.cache
+.idea
+/cmake-build*
